@@ -1,0 +1,36 @@
+$white: #fff;
+
+
+.fa-facebook-f, .fa-twitter, .fa-instagram {
+    margin-top: 110px;
+    color: $white;
+    padding-left: 10px !important;
+    border: solid 2px $white;
+    border-width: 2px;
+    border-radius: 40px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    cursor: pointer;
+    &:hover {
+        color: $softMagenta;
+        border: solid 2px $softMagenta;
+    }
+    @include media-breakpoint-up(lg) {
+        float: right;
+        margin-right: 70px;
+    }
+}
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding-top: 20px;
+  a { 
+      color: hsl(228, 45%, 44%);
+     }
+}

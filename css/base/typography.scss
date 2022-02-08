@@ -1,0 +1,33 @@
+$fontHeader: 'Poppins', sans-serif;
+$fontBody: 'Open Sans', sans-serif;
+$white: #fff;
+
+
+.title {
+    font-family: $fontHeader; 
+    font-weight: 600;
+    color: $white;
+    text-align: center;
+    font-size: 2em;
+    padding: 50px;
+    padding-bottom: 10px;
+    @include media-breakpoint-up(lg) {
+        text-align: left;
+
+    }
+}
+
+.mainText {
+    font-family: $fontBody;
+    font-weight: 400;
+    padding: 50px;
+    padding-bottom: 10px;
+    padding-top: 0;
+    color: $white;
+    text-align: center;
+    font-size: 22px;
+    @include media-breakpoint-up(lg) {
+        text-align: left;
+        font-size: 16px;
+    }
+}
